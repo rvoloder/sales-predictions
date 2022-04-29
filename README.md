@@ -29,8 +29,9 @@ The analysis conducted provided quite a few different observations from the data
 ### Here are examples of how to embed images from your sub-folder
 
 
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+#### Outlet Size, Outlet Type, and Location Type vs. Item Sales
+<img width="402" alt="Outlet Size" src="https://user-images.githubusercontent.com/101893905/165898328-22f7293e-0c91-44de-afe9-d535567223c2.png">
+
 
 > Sentence about visualization.
 
