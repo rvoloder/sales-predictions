@@ -33,12 +33,15 @@ The analysis conducted provided quite a few different observations from the data
 #### Outlet Size, Outlet Type, and Location Type vs. Item Sales
 
 Medium Sized Stores seem to be performing the best. 
+
 <img width="402" alt="Outlet Size" src="https://user-images.githubusercontent.com/101893905/165898328-22f7293e-0c91-44de-afe9-d535567223c2.png">
 
 Supermarket Type 3 Stores sales' are outperforming other types. 
+
 <img width="403" alt="Outlet Type" src="https://user-images.githubusercontent.com/101893905/165898972-e04514be-ec19-479d-b001-196d1da96201.png">
 
 Tier 3 Location types seem to have the most high-performing items. 
+
 <img width="403" alt="Outlet Type" src="https://user-images.githubusercontent.com/101893905/165899563-c2d8568d-02eb-4cbb-9ca3-45024c397612.png">
 
 
