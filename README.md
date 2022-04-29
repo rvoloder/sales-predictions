@@ -27,6 +27,8 @@ The project allowed us to find a strong correlation between the Maximum Retail P
 
 ## Results:
 The analysis conducted provided quite a few different observations from the data. I found that Tier 3, Medium Sized stores, and Supermarket Type 3's seem to have items with the highest sales performance. I also found the Maximum Retail Price seemed to be highly correlated with the sales of that item (based on a correlation heatmap).  The graphics also revealed (as stated in the data portion) that the items with the highest sales were in the "fruits and vegetables," "household," and "snack food" items. 
+
+The Regression Tree model was chosen as the approprate model for predicting sales predictions. The r2 value of both the training and testing data were around 0.6, showing little variance and fairly low bias, a solid model overall. The rmse values were also very close 1082 for the training and 1055 for the testing, showing good model consistency in predicting outcomes. 
 ### The images below show evidence of the above results:
 
 
