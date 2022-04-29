@@ -16,11 +16,12 @@ The project allowed us to find a strong correlation between the Maximum Retail P
 
 ## Methods:
 - The data was first analyzed for missing data. The missing store sizes were figured out based on analysis and linking different data points that were available.
-- The numerical missing data was left alone as to prevent data leakage.
+- The numeric missing data was left alone as to prevent data leakage.
+- A variety of visualizations were then performed on the data to derive some more specific insights on various factors affecting item sales. 
+- Ordinal data was encoded accordingly.
 - The data was then split into training and target data using a train_test_split.
 - The data was then processed with two different pipelines. The numeric pipe used a mean imputer to imput missing values that were then scaled down using a standard scaler. The categorical pipe used a frequency imputer to fill in any remaining missing categorical data as well as a OneHotEncoder to convert nominal values into numerical ones.
 - Two tuples were than put in place to hold the data and place into a column transformer so the data could be finally processed.
-- A variety of visualizations were then performed on the data to derive some more specific insights on various factors affecting item sales. 
 - Two models were then built to predict data. The first, a linear regression model, performed poorly on the data (evaluated based on r2 and rmse scores). 
 - The second, a simple regression tree model, performed much better once maximum depth was adjusted. The model provided has a low variance and low bias and can give good predictions for future item sales. 
 
@@ -43,17 +44,22 @@ Tier 3 Location types seem to have the most high-performing items.
 
 #### Item Category Sales
 
+The categories with the highest performing items are "Household", "Fruits and Vegetables", and "Snack Foods".
 
+<img width="403" alt="Item Type" src="https://user-images.githubusercontent.com/101893905/165899981-f0211047-dece-4d1f-8b9e-9369dff53f09.png">
 
 ## Recommendations:
 
-More of your own text here
+From the analysis provided above and within the file, I would recommend that the company figure out exactly which items are the highest performers. It would then be a good idea to evaluate which components seem to be making those items outperform others. Is it something the company can control (their display, item visibility, etc.) or something that is linked more to the individual product (brand recognition, advertising, etc.). They can then act accordingly. It would also be wise to figure out why certain location types or store types seem to be performing better and try to implement some of those aspects in other stores or for other items (design, location selection, etc.). Any of these factors could lead to improved sales numbers in the future. 
+
+The model is also able to provide predictions based on the current data and can be improved as more data is added. 
 
 
-## Limitations & Next Steps
+## Limitations & Next Steps:
 
-More of your own text here
+The biggest limitation in this project is the lack of individual product name or description that would have allowed us to make further insights into causation of high or low performance. Missing data was also another challenge but was dealt with appropriately.
 
+In the next steps, the individual items with high sales should be looked at and analyzed more deeply to find links and reasons for their high performance, concepts that can be carried over to other stores and items. The model should also be used to predict the sales of future items added to the store and to compare whether making certain changes do indeed created better performance and higher sales predictions for other "low performers".
 
 ### For further information
 
