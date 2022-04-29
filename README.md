@@ -26,11 +26,17 @@ The project allowed us to find a strong correlation between the Maximum Retail P
 
 ## Results:
 The analysis conducted provided quite a few different observations from the data. I found that Tier 3, Medium Sized stores, and Supermarket Type 3's seem to have items with the highest sales performance. I also found the Maximum Retail Price seemed to be highly correlated with the sales of that item (based on a correlation heatmap).  The graphics also revealed (as stated in the data portion) that the items with the highest sales were in the "fruits and vegetables," "household," and "snack food" items. 
-### Here are examples of how to embed images from your sub-folder
+### The images below show evidence of the above results:
 
 
 #### Outlet Size, Outlet Type, and Location Type vs. Item Sales
+
+Medium Sized Stores seem to be performing the best. 
 <img width="402" alt="Outlet Size" src="https://user-images.githubusercontent.com/101893905/165898328-22f7293e-0c91-44de-afe9-d535567223c2.png">
+
+Supermarket Type 3 Stores sales' are outperforming other types. 
+<img width="403" alt="Outlet Type" src="https://user-images.githubusercontent.com/101893905/165898972-e04514be-ec19-479d-b001-196d1da96201.png">
+
 
 
 > Sentence about visualization.
