@@ -20,15 +20,15 @@ The project allowed us to find a strong correlation between the Maximum Retail P
 - A variety of visualizations were then performed on the data to derive some more specific insights on various factors affecting item sales. 
 - Ordinal data was encoded accordingly.
 - The data was then split into training and target data using a train_test_split.
-- The data was then processed with two different pipelines. The numeric pipe used a mean imputer to imput missing values that were then scaled down using a standard scaler. The categorical pipe used a frequency imputer to fill in any remaining missing categorical data as well as a OneHotEncoder to convert nominal values into numerical ones.
+- The data was then processed with two different pipelines. The numeric pipe used a mean imputer to impute missing values that were then scaled down using a standard scaler. The categorical pipe used a frequency imputer to fill in any remaining missing categorical data as well as a OneHotEncoder to convert nominal values into numerical ones.
 - Two tuples were than put in place to hold the data and place into a column transformer so the data could be finally processed.
-- Two models were then built to predict data. The first, a linear regression model, performed poorly on the data (evaluated based on r2 and rmse scores). 
-- The second, a simple regression tree model, performed much better once maximum depth was adjusted. The model provided has a low variance and low bias and can give good predictions for future item sales. 
+- Two models were then built to predict data. The first, a linear regression model, performed poorly on the data (evaluated based on r2 and rmse scores). R2 score turned out to be negative, hinting very poor performance, implying that even a straight horizontal line used for predicrtions would have been better. The rmse scores were very off, the training at 985, and the testing nowhere near that. 
+- The second, a simple regression tree model, performed much better once maximum depth was adjusted (set at 5). The model provided has a low variance and low bias and can give good predictions for future item sales. 
 
 ## Results:
 The analysis conducted provided quite a few different observations from the data. I found that Tier 3, Medium Sized stores, and Supermarket Type 3's seem to have items with the highest sales performance. I also found the Maximum Retail Price seemed to be highly correlated with the sales of that item (based on a correlation heatmap).  The graphics also revealed (as stated in the data portion) that the items with the highest sales were in the "fruits and vegetables," "household," and "snack food" items. 
 
-The Regression Tree model was chosen as the approprate model for predicting sales predictions. The r2 value of both the training and testing data were around 0.6, showing little variance and fairly low bias, a solid model overall. The rmse values were also very close 1082 for the training and 1055 for the testing, showing good model consistency in predicting outcomes. 
+The Regression Tree model was chosen as the approprate model for predicting sales predictions. The r2 value of both the training and testing data were around 0.6 and 0.59 respectively, showing little variance and fairly low bias, a solid model overall. The rmse values were also very close 1082 for the training and 1055 for the testing, showing good model consistency in predicting outcomes. 
 ### The images below show evidence of the above results:
 
 
